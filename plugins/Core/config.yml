@@ -1,0 +1,30 @@
+locale: en
+
+storage-method: "h2"
+
+split-storage:
+  enabled: false
+  methods:
+    user: "h2"
+
+data:
+  address: "localhost"
+  database: "minecraft"
+  username: "root"
+  password: "admin"
+  table-prefix: "core"
+  mongodb_collection_prefix: ""
+  mongodb_connection_URI: ""
+  firestore-key-file: "key.json"
+  pool-size: 10
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    keepalive.time: 0
+    connection-timeout: 5000
+    settings.properties:
+
+
+debug:
+  logins: false
